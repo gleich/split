@@ -11,6 +11,6 @@
 	const { children }: { children: Snippet } = $props();
 </script>
 
-<Layout repo="gleich/ui">
+<Layout repo="gleich/split">
 	{@render children()}
 </Layout>

@@ -22,3 +22,26 @@ h6 {
 	font-family: 'Inter', 'Segoe UI', Roboto, 'Helvetica Neue', 'Arial Black', Arial, sans-serif;
 	font-weight: 800;
 }
+
+input {
+	outline: none;
+	border-radius: 3px;
+	border: 1px solid var(--border);
+	border-radius: 4px;
+	font-family: 'IBM Plex Mono';
+	background-color: var(--background);
+}
+
+input[type='number'] {
+	appearance: textfield;
+	-moz-appearance: textfield;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input:focus {
+	border: 1px solid var(--blue-foreground);
+}
