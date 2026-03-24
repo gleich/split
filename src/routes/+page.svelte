@@ -30,7 +30,7 @@
 		<div class="inputs">
 			<Input
 				name="Restaurant Name"
-				placeholder="Daniel's Pizza"
+				placeholder="Chipotle"
 				type="text"
 				bind:value={restaurantName}
 			/>
